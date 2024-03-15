@@ -13,7 +13,7 @@ function PostPage() {
             })
         })
 
-    },[id])
+    },[])
     if(!postInfo) return '';
   return (
     <div className='post-page'>
